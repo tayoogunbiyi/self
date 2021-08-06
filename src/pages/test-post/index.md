@@ -1,8 +1,8 @@
 ---
-title: Algebraic Effects for the Rest of Us
-date: '2019-07-21'
-spoiler: They’re not burritos.
-cta: 'react'
+title: Test Post
+date: '2021-08-01'
+spoiler: Jst a test post
+cta: 'test'
 ---
 
 Have you heard about *algebraic effects*?
