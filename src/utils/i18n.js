@@ -10,9 +10,10 @@ import whitelist from './whitelist';
 // https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 // https://discuss.httparchive.org/t/what-are-the-invalid-uses-of-the-lang-attribute/1022
 
-export const codeToLanguage = code =>
-  supportedLanguages[code].replace(/ /g, ' ' /* nbsp */);
-
+export const codeToLanguage = code => {
+  console.log('Code :', code);
+  return supportedLanguages[code].replace(/ /g, ' ' /* nbsp */);
+};
 export const loadFontsForCode = code => {
   switch (code) {
     case 'ru':
